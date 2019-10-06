@@ -1,0 +1,98 @@
+<com.adventure.entity.Player>
+  <name>Rafael</name>
+  <maxLife>140</maxLife>
+  <currentlyLife>74</currentlyLife>
+  <attack>10</attack>
+  <defense>30</defense>
+  <exp>240</exp>
+  <inventory>
+    <totalSpace>12</totalSpace>
+    <emptySpace>3</emptySpace>
+    <occupiedSpace>9</occupiedSpace>
+    <loots>
+      <com.adventure.entity.Item>
+        <name>Poção de Vida - Pequena</name>
+        <buyPrice>20</buyPrice>
+        <sellPrice>5</sellPrice>
+        <lootType>COPPER</lootType>
+        <type>LIFE_POTION</type>
+        <bonus>50</bonus>
+      </com.adventure.entity.Item>
+      <com.adventure.entity.Item reference="../com.adventure.entity.Item"/>
+      <com.adventure.entity.Item reference="../com.adventure.entity.Item"/>
+      <com.adventure.entity.Item reference="../com.adventure.entity.Item"/>
+      <com.adventure.entity.Item reference="../com.adventure.entity.Item"/>
+      <com.adventure.entity.Item reference="../com.adventure.entity.Item"/>
+      <com.adventure.entity.Item reference="../com.adventure.entity.Item"/>
+      <com.adventure.entity.Item reference="../com.adventure.entity.Item"/>
+      <com.adventure.entity.Item reference="../com.adventure.entity.Item"/>
+    </loots>
+  </inventory>
+  <equippedEquipments>
+    <com.adventure.entity.Equipment>
+      <name>Silver Helmet</name>
+      <buyPrice>300</buyPrice>
+      <sellPrice>70</sellPrice>
+      <lootType>SILVER</lootType>
+      <attack>0</attack>
+      <defense>5</defense>
+      <type>HELMET</type>
+      <color>
+        <value>-4144960</value>
+        <falpha>0.0</falpha>
+      </color>
+    </com.adventure.entity.Equipment>
+    <com.adventure.entity.Equipment>
+      <name>Silver Shield</name>
+      <buyPrice>300</buyPrice>
+      <sellPrice>70</sellPrice>
+      <lootType>SILVER</lootType>
+      <attack>0</attack>
+      <defense>5</defense>
+      <type>SHIELD</type>
+      <color reference="../../com.adventure.entity.Equipment/color"/>
+    </com.adventure.entity.Equipment>
+    <com.adventure.entity.Equipment>
+      <name>Silver Paints</name>
+      <buyPrice>300</buyPrice>
+      <sellPrice>70</sellPrice>
+      <lootType>SILVER</lootType>
+      <attack>0</attack>
+      <defense>5</defense>
+      <type>PAINTS</type>
+      <color reference="../../com.adventure.entity.Equipment/color"/>
+    </com.adventure.entity.Equipment>
+    <com.adventure.entity.Equipment>
+      <name>Silver Boots</name>
+      <buyPrice>300</buyPrice>
+      <sellPrice>70</sellPrice>
+      <lootType>SILVER</lootType>
+      <attack>0</attack>
+      <defense>5</defense>
+      <type>BOOTS</type>
+      <color reference="../../com.adventure.entity.Equipment/color"/>
+    </com.adventure.entity.Equipment>
+    <com.adventure.entity.Equipment>
+      <name>Silver Breastplate</name>
+      <buyPrice>300</buyPrice>
+      <sellPrice>70</sellPrice>
+      <lootType>SILVER</lootType>
+      <attack>0</attack>
+      <defense>5</defense>
+      <type>BREASTPLATE</type>
+      <color reference="../../com.adventure.entity.Equipment/color"/>
+    </com.adventure.entity.Equipment>
+    <com.adventure.entity.Equipment>
+      <name>Silver Weapon</name>
+      <buyPrice>300</buyPrice>
+      <sellPrice>70</sellPrice>
+      <lootType>SILVER</lootType>
+      <attack>5</attack>
+      <defense>0</defense>
+      <type>WEAPON</type>
+      <color reference="../../com.adventure.entity.Equipment/color"/>
+    </com.adventure.entity.Equipment>
+  </equippedEquipments>
+  <gold>464</gold>
+  <level>3</level>
+</com.adventure.entity.Player>
